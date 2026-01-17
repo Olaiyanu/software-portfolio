@@ -48,13 +48,13 @@ const About: React.FC = () => {
             className="space-y-6 text-muted text-lg leading-relaxed"
           >
             <p>
-              I am Johnson Olaleye, a multidisciplinary engineer operating at the intersection of software, hardware, and design. My journey began with a curiosity for how things work, which quickly evolved into a passion for building systems that solve real-world problems.
+              I am Johnson Olaleye, a multidisciplinary engineer bridging software, hardware, and design. Driven by curiosity, I build systems that solve real-world problems.
             </p>
             <p>
-              Currently, I focus on building high-performance web applications and embedded solutions. I believe that great engineering is not just about writing code, it's about understanding the user, the business constraints, and the long-term maintainability of the system.
+              My focus is on high performance web applications and embedded solutions. I believe effective engineering requires understanding users, business goals, and long-term maintainability not just writing code.
             </p>
             <p>
-              When I'm not coding, I'm likely prototyping a new IoT device, exploring the latest in interface design, or contributing to open-source projects.
+              Beyond development, I actively engage in prototyping IoT solutions, exploring interface design, and contributing to the open-source community.
             </p>
           </motion.div>
 

@@ -37,10 +37,12 @@ const Navbar: React.FC = () => {
         const elementPosition = element.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
+        setTimeout(() => {
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }, 100);
         
         // Update URL without jumping
         window.history.pushState(null, '', href);

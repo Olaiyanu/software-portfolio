@@ -67,12 +67,14 @@ const Hero: React.FC = () => {
               View My Work
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button 
-              onClick={scrollToContact}
+            <a 
+              href="https://wa.me/2348140227181"
+              target="_blank"
+              rel="noreferrer"
               className="px-8 py-4 bg-transparent border border-white/10 text-white font-semibold rounded-lg hover:bg-white/5 transition-all"
             >
               Contact Me
-            </button>
+            </a>
           </div>
 
           <div className="mt-12 flex items-center gap-6 text-muted">

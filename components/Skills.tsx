@@ -5,19 +5,19 @@ import { SkillCategory } from '../types';
 const skillCategories: SkillCategory[] = [
   {
     title: 'Frontend Development',
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'Framer Motion', 'Vue.js', 'Web Assembly']
+    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'Framer Motion']
   },
   {
     title: 'Backend & Cloud',
-    skills: ['Node.js', 'Python', 'Go', 'PostgreSQL', 'Redis', 'Docker', 'AWS (Lambda, EC2)', 'GraphQL']
+    skills: ['Node.js', 'Python', 'Flask', 'Postman (API testing)', 'Firebase']
   },
   {
     title: 'Embedded Systems',
-    skills: ['C/C++', 'RTOS', 'Arduino', 'ESP32', 'PCB Design', 'I2C/SPI/UART', 'IoT Protocols (MQTT)']
+    skills: ['C/C++', 'Arduino', 'ESP32', 'PlatformIO', 'Blynk', 'IoT Protocols (MQTT)']
   },
   {
     title: 'Design & Tools',
-    skills: ['Figma', 'Adobe XD', 'Git', 'CI/CD', 'Jest/Testing Library', 'Agile/Scrum', 'Linux']
+    skills: ['Figma', 'Adobe XD', 'Git', 'Framer', 'Photoshop', 'Notion', 'Canva']
   }
 ];
 
