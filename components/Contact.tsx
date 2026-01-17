@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
                   name="name"
                   required
                   className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
-                  placeholder="John Doe"
+                  placeholder="Your name"
                 />
               </div>
               <div className="space-y-2">
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                   name="email"
                   required
                   className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
-                  placeholder="john@example.com"
+                  placeholder="Your email address"
                 />
               </div>
             </div>
