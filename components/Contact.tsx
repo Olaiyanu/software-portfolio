@@ -50,13 +50,16 @@ const Contact: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="bg-card border border-white/5 p-8 rounded-2xl shadow-xl space-y-6"
-            onSubmit={(e) => e.preventDefault()}
+            action="https://formsubmit.co/johnsonolaiyanu@gmail.com"
+            method="POST"
           >
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm text-muted font-medium">Name</label>
                 <input 
                   type="text" 
+                  name="name"
+                  required
                   className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                   placeholder="John Doe"
                 />
@@ -65,6 +68,8 @@ const Contact: React.FC = () => {
                 <label className="text-sm text-muted font-medium">Email</label>
                 <input 
                   type="email" 
+                  name="email"
+                  required
                   className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                   placeholder="john@example.com"
                 />
@@ -75,6 +80,8 @@ const Contact: React.FC = () => {
               <label className="text-sm text-muted font-medium">Subject</label>
               <input 
                 type="text" 
+                name="subject"
+                required
                 className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                 placeholder="Project Inquiry"
               />
@@ -84,12 +91,14 @@ const Contact: React.FC = () => {
               <label className="text-sm text-muted font-medium">Message</label>
               <textarea 
                 rows={4} 
+                name="message"
+                required
                 className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all resize-none"
                 placeholder="Tell me about your project..."
               ></textarea>
             </div>
 
-            <button className="w-full py-4 bg-primary text-white font-bold rounded-lg hover:bg-orange-600 transition-all flex items-center justify-center gap-2">
+            <button type="submit" className="w-full py-4 bg-primary text-white font-bold rounded-lg hover:bg-orange-600 transition-all flex items-center justify-center gap-2">
               Send Message
               <Send className="w-4 h-4" />
             </button>
